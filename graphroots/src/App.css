@@ -1,0 +1,45 @@
+.app-container {
+  display: flex;
+}
+
+#root {
+  padding-left: 280px; /* Matches sidebar width */
+  padding-top: 70px; /* Prevents overlap with top bar */
+}
+
+@media (max-width: 900px) {
+  #root {
+    padding-left: 0px; /* Remove padding when drawer is temporary */
+  }
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.appbar-logo {
+  height: 40px;
+  margin-right: 20px;
+}

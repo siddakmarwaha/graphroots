@@ -1,0 +1,11 @@
+pandas
+networkx
+pyvis
+notebook
+flask
+flask_cors
+openpyxl
+matplotlib
+ipynb
+sqlalchemy
+psycopg2-binary

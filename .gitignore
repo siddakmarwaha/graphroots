@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Environment variables / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Data and model artifacts (kept out of version control)
+data/raw/
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Partner data is never committed
+data/
+contact_graph.html
+node_modules/
+dist/

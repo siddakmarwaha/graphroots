@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ipynb linguist-language=Jupyter\ Notebook
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary

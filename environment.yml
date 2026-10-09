@@ -1,0 +1,17 @@
+name: graphroots-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - networkx
+  - pyvis
+  - notebook
+  - flask
+  - flask-cors
+  - openpyxl
+  - matplotlib
+  - pip
+  - pip:
+      - -r requirements.txt
